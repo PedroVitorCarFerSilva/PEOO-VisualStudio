@@ -24,5 +24,10 @@ namespace tester
         {
             InitializeComponent();
         }
+
+        private void slider_valuechanged(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+            txtnumbolas.Text = slider.Value.ToString();
+        }
     }
 }
