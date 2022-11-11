@@ -20,14 +20,36 @@ namespace tester
     /// </summary>
     public partial class MainWindow : Window
     {
-        public MainWindow()
-        {
-            InitializeComponent();
-        }
 
+        Bingo b = new Bingo();
         private void slider_valuechanged(object sender, RoutedPropertyChangedEventArgs<double> e)
         {
             txtnumbolas.Text = slider.Value.ToString();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            b.Iniciar(int.Parse(txtnumbolas.Text));
+            inicia.IsEnabled = false;
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            int bola = b.Proximo();
+            if (bola == -1)
+            {
+                txtsort.IsEnabled = false;
+                txtsort.Text = "cabou";
+                inicia.IsEnabled = true;
+            }
+            else
+            {
+                txtsort.Text = bola.ToString();
+                foreach (int ha in b.Sorteados())
+                {
+                    sorteades.Text += " " + ha.ToString();
+                }
+            }
         }
     }
 }
