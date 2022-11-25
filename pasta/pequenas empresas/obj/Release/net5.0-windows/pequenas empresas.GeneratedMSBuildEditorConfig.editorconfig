@@ -6,5 +6,5 @@ build_property.ProjectTypeGuids =
 build_property.PublishSingleFile = 
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
-build_property.RootNamespace = tester
-build_property.ProjectDir = C:\Users\20211011110012\Source\Repos\PedroVitorCarFerSilva\PEOO-VSCODE\pasta\tester\
+build_property.RootNamespace = pequenas_empresas
+build_property.ProjectDir = C:\Users\20211011110012\source\repos\PedroVitorCarFerSilva\PEOO-VSCODE\pasta\pequenas empresas\

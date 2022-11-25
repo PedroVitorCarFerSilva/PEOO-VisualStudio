@@ -1,0 +1,22 @@
+C:\Users\20211011110012\source\repos\PedroVitorCarFerSilva\PEOO-VSCODE\pasta\pequenas empresas\bin\Debug\net5.0-windows\pequenas empresas.exe
+C:\Users\20211011110012\source\repos\PedroVitorCarFerSilva\PEOO-VSCODE\pasta\pequenas empresas\bin\Debug\net5.0-windows\pequenas empresas.deps.json
+C:\Users\20211011110012\source\repos\PedroVitorCarFerSilva\PEOO-VSCODE\pasta\pequenas empresas\bin\Debug\net5.0-windows\pequenas empresas.runtimeconfig.json
+C:\Users\20211011110012\source\repos\PedroVitorCarFerSilva\PEOO-VSCODE\pasta\pequenas empresas\bin\Debug\net5.0-windows\pequenas empresas.runtimeconfig.dev.json
+C:\Users\20211011110012\source\repos\PedroVitorCarFerSilva\PEOO-VSCODE\pasta\pequenas empresas\bin\Debug\net5.0-windows\pequenas empresas.dll
+C:\Users\20211011110012\source\repos\PedroVitorCarFerSilva\PEOO-VSCODE\pasta\pequenas empresas\bin\Debug\net5.0-windows\ref\pequenas empresas.dll
+C:\Users\20211011110012\source\repos\PedroVitorCarFerSilva\PEOO-VSCODE\pasta\pequenas empresas\bin\Debug\net5.0-windows\pequenas empresas.pdb
+C:\Users\20211011110012\source\repos\PedroVitorCarFerSilva\PEOO-VSCODE\pasta\pequenas empresas\obj\Debug\net5.0-windows\pequenas empresas.csproj.AssemblyReference.cache
+C:\Users\20211011110012\source\repos\PedroVitorCarFerSilva\PEOO-VSCODE\pasta\pequenas empresas\obj\Debug\net5.0-windows\MainWindow.g.cs
+C:\Users\20211011110012\source\repos\PedroVitorCarFerSilva\PEOO-VSCODE\pasta\pequenas empresas\obj\Debug\net5.0-windows\App.g.cs
+C:\Users\20211011110012\source\repos\PedroVitorCarFerSilva\PEOO-VSCODE\pasta\pequenas empresas\obj\Debug\net5.0-windows\pequenas empresas_MarkupCompile.cache
+C:\Users\20211011110012\source\repos\PedroVitorCarFerSilva\PEOO-VSCODE\pasta\pequenas empresas\obj\Debug\net5.0-windows\pequenas empresas_MarkupCompile.lref
+C:\Users\20211011110012\source\repos\PedroVitorCarFerSilva\PEOO-VSCODE\pasta\pequenas empresas\obj\Debug\net5.0-windows\MainWindow.baml
+C:\Users\20211011110012\source\repos\PedroVitorCarFerSilva\PEOO-VSCODE\pasta\pequenas empresas\obj\Debug\net5.0-windows\pequenas empresas.g.resources
+C:\Users\20211011110012\source\repos\PedroVitorCarFerSilva\PEOO-VSCODE\pasta\pequenas empresas\obj\Debug\net5.0-windows\pequenas empresas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\20211011110012\source\repos\PedroVitorCarFerSilva\PEOO-VSCODE\pasta\pequenas empresas\obj\Debug\net5.0-windows\pequenas empresas.AssemblyInfoInputs.cache
+C:\Users\20211011110012\source\repos\PedroVitorCarFerSilva\PEOO-VSCODE\pasta\pequenas empresas\obj\Debug\net5.0-windows\pequenas empresas.AssemblyInfo.cs
+C:\Users\20211011110012\source\repos\PedroVitorCarFerSilva\PEOO-VSCODE\pasta\pequenas empresas\obj\Debug\net5.0-windows\pequenas empresas.csproj.CoreCompileInputs.cache
+C:\Users\20211011110012\source\repos\PedroVitorCarFerSilva\PEOO-VSCODE\pasta\pequenas empresas\obj\Debug\net5.0-windows\pequenas empresas.dll
+C:\Users\20211011110012\source\repos\PedroVitorCarFerSilva\PEOO-VSCODE\pasta\pequenas empresas\obj\Debug\net5.0-windows\ref\pequenas empresas.dll
+C:\Users\20211011110012\source\repos\PedroVitorCarFerSilva\PEOO-VSCODE\pasta\pequenas empresas\obj\Debug\net5.0-windows\pequenas empresas.pdb
+C:\Users\20211011110012\source\repos\PedroVitorCarFerSilva\PEOO-VSCODE\pasta\pequenas empresas\obj\Debug\net5.0-windows\pequenas empresas.genruntimeconfig.cache

@@ -1,0 +1,24 @@
+﻿<Window x:Class="pequenas_empresas.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:pequenas_empresas"
+        mc:Ignorable="d"
+        Title="eu sou" Height="400" Width="500">
+    <Grid>
+        <TextBlock Name="barasli" FontSize="30px" HorizontalAlignment="Left" Height="51" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="93"><Run Language="pt-br" Text="Barasli"/></TextBlock>
+        <TextBox Name="txtempresa" HorizontalAlignment="Left" Height="36" Margin="10,74,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="137"/>
+        <Button Name="botaoempresa" Content="nova empresa" HorizontalAlignment="Left" Height="67" Margin="178,43,0,0" VerticalAlignment="Top" Width="139" FontSize="20px" RenderTransformOrigin="0.5,0.5" Click="botaoempresa_Click"/>
+
+        <TextBlock HorizontalAlignment="Left" Margin="10,142,0,0" Text="nome" TextWrapping="Wrap" VerticalAlignment="Top" Height="32" Width="164" FontSize="20px"/>
+        <TextBox Name="txtnome" HorizontalAlignment="Left" Height="24" Margin="10,179,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="164"/>
+
+        <TextBlock HorizontalAlignment="Left" Margin="248,142,0,0" Text="limite" TextWrapping="Wrap" VerticalAlignment="Top" Height="32" Width="164" FontSize="20px"/>
+        <TextBox Name="txtlimite" HorizontalAlignment="Left" Height="24" Margin="248,179,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="164"/>
+
+        <Button Name="buttonclient" FontSize="15px" Content="inserir" HorizontalAlignment="Left" Height="35" Margin="10,208,0,0" VerticalAlignment="Top" Width="273"/>
+        <ListBox HorizontalAlignment="Center" Height="115" Margin="0,259,0,0" VerticalAlignment="Top" Width="482"/>
+
+    </Grid>
+</Window>
