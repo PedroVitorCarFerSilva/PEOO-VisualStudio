@@ -1,0 +1,18 @@
+﻿<Window x:Class="Suap2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Suap2"
+        mc:Ignorable="d"
+        Title="suap2" Height="200" Width="300">
+    <Grid>
+        
+        <Button Name="turmasbot" Content="Turma" HorizontalAlignment="Center" Height="25" Margin="0,59,0,0" VerticalAlignment="Top" Width="181" Click="turmasbot_Click"/>
+        <Button Name="alunosbot" Content="Aluno" HorizontalAlignment="Center" Height="26" Margin="0,88,0,0" VerticalAlignment="Top" Width="181" Click="alunosbot_Click"/>
+        <Button Name="matriculasbot" Content="Matrícula" HorizontalAlignment="Center" Height="26" Margin="0,117,0,0" VerticalAlignment="Top" Width="181" Click="matriculasbot_Click"/>
+        <Button Name="diariosbot" Content="Diário" HorizontalAlignment="Center" Height="25" Margin="0,147,0,0" VerticalAlignment="Top" Width="181" Click="diariosbot_Click"/>
+        <TextBlock TextWrapping="Wrap" Margin="60,10,60,130" FontSize="27" FontFamily="Comic Sans MS"><Run Language="pt-br" Text="FEICIBUQUE"/></TextBlock>
+
+    </Grid>
+</Window>
