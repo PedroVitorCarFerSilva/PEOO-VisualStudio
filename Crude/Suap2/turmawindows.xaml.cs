@@ -23,5 +23,41 @@ namespace Suap2
         {
             InitializeComponent();
         }
+
+        private void inserirclick(object sender, RoutedEventArgs e)
+        {
+            Turma t = new Turma { Id = txtid.Text, Curso = txtcurso.Text, Descricao = txtturma.Text, AnoLetivo = int.Parse(txtano.Text) };
+            NTurma.Inserir(t);
+
+            txtid.Text = null;
+            txtcurso.Text = null;
+            txtturma.Text = null;
+            txtano.Text = null;
+
+            listarclick(sender, e);
+        }
+
+        private void listarclick(object sender, RoutedEventArgs e)
+        {
+            listTurmas.ItemsSource = null;
+            listTurmas.ItemsSource = NTurma.Listar();
+        }
+
+        private void atualizarclick(object sender, RoutedEventArgs e)
+        {
+            Turma t = new Turma { Id = txtid.Text, Curso = txtcurso.Text, Descricao = txtturma.Text, AnoLetivo = int.Parse(txtano.Text) };
+            NTurma.Atualizar(t);
+
+            listarclick(sender, e);
+        }
+
+        private void excluirclick(object sender, RoutedEventArgs e)
+        {
+            if (listTurmas.SelectedItem != null)
+            {
+                NTurma.Excluir((Turma)listTurmas.SelectedItem);
+                listarclick(sender, e);
+            }
+        }
     }
 }

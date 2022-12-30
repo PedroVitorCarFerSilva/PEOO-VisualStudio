@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Brasil\\PEOO-VSCODE\\Crude\\Suap2\\Suap2.csproj",
+      "projectUniqueName": "C:\\Users\\20211011110012\\Source\\Repos\\PedroVitorCarFerSilva\\PEOO-VSCODE\\Crude\\Suap2\\Suap2.csproj",
       "projectName": "Suap2",
-      "projectPath": "C:\\Brasil\\PEOO-VSCODE\\Crude\\Suap2\\Suap2.csproj",
+      "projectPath": "C:\\Users\\20211011110012\\Source\\Repos\\PedroVitorCarFerSilva\\PEOO-VSCODE\\Crude\\Suap2\\Suap2.csproj",
       "packagesPath": "C:\\Users\\20211011110012\\.nuget\\packages\\",
-      "outputPath": "C:\\Brasil\\PEOO-VSCODE\\Crude\\Suap2\\obj\\",
+      "outputPath": "C:\\Users\\20211011110012\\Source\\Repos\\PedroVitorCarFerSilva\\PEOO-VSCODE\\Crude\\Suap2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\20211011110012\\AppData\\Roaming\\NuGet\\NuGet.Config",

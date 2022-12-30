@@ -5,8 +5,20 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Suap2"
         mc:Ignorable="d"
-        Title="turmawindows" Height="450" Width="800">
+        Title="turmawindows" Height="200" Width="400">
     <Grid>
-        
+        <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" Text="Id" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="55,10,0,0" Text="Curso" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="180,10,0,0" Text="Turma" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="305,10,0,0" Text="Ano Letivo" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBox Name="txtid" HorizontalAlignment="Left" Margin="10,30,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="40"/>
+        <TextBox Name="txtcurso" HorizontalAlignment="Left" Margin="55,30,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="txtturma" HorizontalAlignment="Left" Margin="180,30,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="txtano" HorizontalAlignment="Left" Margin="305,30,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="70"/>
+        <Button Click="inserirclick" Content="Inserir" HorizontalAlignment="Left" Margin="10,53,0,0" VerticalAlignment="Top"/>
+        <Button Click="listarclick" Content="Listar" HorizontalAlignment="Left" Margin="52,53,0,0" VerticalAlignment="Top"/>
+        <Button Click="atualizarclick" Content="Atualizar" HorizontalAlignment="Left" Margin="89,53,0,0" VerticalAlignment="Top"/>
+        <Button Click="excluirclick" Content="Excluir" HorizontalAlignment="Left" Margin="144,53,0,0" VerticalAlignment="Top"/>
+        <ListBox Name="listTurmas" Margin="10,80,15,15" />
     </Grid>
 </Window>
