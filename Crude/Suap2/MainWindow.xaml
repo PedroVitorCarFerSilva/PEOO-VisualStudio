@@ -5,14 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Suap2"
         mc:Ignorable="d"
-        Title="suap2" Height="200" Width="300">
+        Title="suap2" Height="400" Width="800">
     <Grid>
-        
-        <Button Name="turmasbot" Content="Turma" HorizontalAlignment="Center" Height="25" Margin="0,59,0,0" VerticalAlignment="Top" Width="181" Click="turmasbot_Click"/>
-        <Button Name="alunosbot" Content="Aluno" HorizontalAlignment="Center" Height="26" Margin="0,88,0,0" VerticalAlignment="Top" Width="181" Click="alunosbot_Click"/>
-        <Button Name="matriculasbot" Content="Matrícula" HorizontalAlignment="Center" Height="26" Margin="0,117,0,0" VerticalAlignment="Top" Width="181" Click="matriculasbot_Click"/>
-        <Button Name="diariosbot" Content="Diário" HorizontalAlignment="Center" Height="25" Margin="0,147,0,0" VerticalAlignment="Top" Width="181" Click="diariosbot_Click"/>
-        <TextBlock TextWrapping="Wrap" Margin="60,10,60,130" FontSize="27" FontFamily="Comic Sans MS"><Run Language="pt-br" Text="FEICIBUQUE"/></TextBlock>
+
+        <Button Name="turmasbot" Content="Turma" HorizontalAlignment="Center" Height="65" Margin="0,59,0,0" VerticalAlignment="Top" Width="572" Click="turmasbot_Click" FontSize="24" FontFamily="Comic Sans MS"/>
+        <Button Name="alunosbot" Content="Aluno" HorizontalAlignment="Center" Height="67" Margin="0,134,0,0" VerticalAlignment="Top" Width="572" Click="alunosbot_Click" FontSize="24" FontFamily="Comic Sans MS"/>
+        <Button Name="matriculasbot" Content="Matrícula" HorizontalAlignment="Center" Height="67" Margin="0,211,0,0" VerticalAlignment="Top" Width="572" Click="matriculasbot_Click" FontSize="24" FontFamily="Comic Sans MS"/>
+        <Button Name="diariosbot" Content="Diário" HorizontalAlignment="Center" Height="65" Margin="0,288,0,0" VerticalAlignment="Top" Width="572" Click="diariosbot_Click" FontSize="24" FontFamily="Comic Sans MS"/>
+        <TextBlock TextWrapping="Wrap" HorizontalAlignment="Center" Height="44" Margin="0,7,0,0" VerticalAlignment="Top" Width="228" FontSize="34" FontFamily="Comic Sans MS"><Run Language="pt-br" Text="FEICIBUQUE"/></TextBlock>
 
     </Grid>
 </Window>

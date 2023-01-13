@@ -93,7 +93,7 @@ namespace Suap2 {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Suap2;component/turmawindows.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Suap2_qwtqziz4_wpftmp;component/turmawindows.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\turmawindows.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

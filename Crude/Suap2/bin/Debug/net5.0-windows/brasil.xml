@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ArrayOfTurma xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Turma>
-    <Id>fdsdfs</Id>
-    <Curso>fdfdggfd</Curso>
-    <Descricao>fdggfdgfd</Descricao>
-    <AnoLetivo>54</AnoLetivo>
+    <Id>432</Id>
+    <Curso>Infoweb</Curso>
+    <Descricao>2° ano</Descricao>
+    <AnoLetivo>2023</AnoLetivo>
   </Turma>
   <Turma>
-    <Id>432</Id>
-    <Curso>fdssdgsd</Curso>
-    <Descricao>fgdfdgdfg</Descricao>
-    <AnoLetivo>45435</AnoLetivo>
+    <Id>739</Id>
+    <Curso>Edif</Curso>
+    <Descricao>3° ano</Descricao>
+    <AnoLetivo>2023</AnoLetivo>
   </Turma>
 </ArrayOfTurma>

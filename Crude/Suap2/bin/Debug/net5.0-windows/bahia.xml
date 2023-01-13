@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfAluno xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Aluno>
+    <Id>2342</Id>
+    <Nome>Renas</Nome>
+    <Matricula>2022230</Matricula>
+    <Email>renantryke@email.com</Email>
+  </Aluno>
+  <Aluno>
+    <Id>4253</Id>
+    <Nome>Thiago</Nome>
+    <Matricula>2022211</Matricula>
+    <Email>geekland@email.com</Email>
+  </Aluno>
+  <Aluno>
+    <Id>6764</Id>
+    <Nome>Cossas</Nome>
+    <Matricula>2022218</Matricula>
+    <Email>omegahtop@email.com</Email>
+  </Aluno>
+</ArrayOfAluno>

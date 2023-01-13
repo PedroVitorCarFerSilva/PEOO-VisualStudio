@@ -5,8 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Suap2"
         mc:Ignorable="d"
-        Title="matriculawindows" Height="200" Width="300">
+        Title="matriculawindows" Height="400" Width="800">
     <Grid>
-        
+        <ListBox Margin="10,192,10,44"/>
+        <ListBox Margin="10,10,10,197"/>
+        <Button Content="Lisrar" HorizontalAlignment="Left" Height="29" Margin="10,345,0,0" VerticalAlignment="Top" Width="385" FontSize="16" FontFamily="Comic Sans MS" Click="botaolistar"/>
+        <Button Content="Matrirculars" HorizontalAlignment="Left" Height="29" Margin="400,345,0,0" VerticalAlignment="Top" Width="390" FontSize="16" FontFamily="Comic Sans MS" Click="botaomatricula"/>
+
     </Grid>
 </Window>

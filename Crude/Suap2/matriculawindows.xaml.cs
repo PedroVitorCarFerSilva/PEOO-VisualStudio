@@ -23,5 +23,15 @@ namespace Suap2
         {
             InitializeComponent();
         }
+
+        private void botaolistar(object sender, RoutedEventArgs e)
+        {
+            NTurma.Listar()
+        }
+
+        private void botaomatricula(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

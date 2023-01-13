@@ -5,8 +5,20 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Suap2"
         mc:Ignorable="d"
-        Title="alunowindows" Height="200" Width="300">
+        Title="alunowindows" Height="400" Width="800">
     <Grid>
-        
+        <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" Text="Id" TextWrapping="Wrap" VerticalAlignment="Top" Width="22"/>
+        <TextBlock HorizontalAlignment="Left" Margin="108,10,0,0" Text="Nome" TextWrapping="Wrap" VerticalAlignment="Top" Width="71"/>
+        <TextBlock HorizontalAlignment="Left" Margin="336,10,0,0" Text="Matricula" TextWrapping="Wrap" VerticalAlignment="Top" Width="89"/>
+        <TextBlock HorizontalAlignment="Left" Margin="566,10,0,0" Text="email" TextWrapping="Wrap" VerticalAlignment="Top" Width="89"/>
+        <TextBox Name="txtid" HorizontalAlignment="Left" Margin="10,30,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="87"/>
+        <TextBox Name="txtnome" HorizontalAlignment="Left" Margin="108,30,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="217"/>
+        <TextBox Name="txtmatricula" HorizontalAlignment="Left" Margin="336,30,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="217"/>
+        <TextBox Name="txtemail" HorizontalAlignment="Left" Margin="566,30,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="217"/>
+        <Button Click="inserirclick" Content="Inserir" HorizontalAlignment="Left" Margin="10,53,0,0" VerticalAlignment="Top" Width="79"/>
+        <Button Click="listarclick" Content="Listar" HorizontalAlignment="Left" Margin="101,53,0,0" VerticalAlignment="Top" Width="70"/>
+        <Button Click="atualizarclick" Content="Atualizar" HorizontalAlignment="Left" Margin="182,53,0,0" VerticalAlignment="Top" Width="109"/>
+        <Button Click="excluirclick" Content="Excluir" HorizontalAlignment="Left" Margin="301,53,0,0" VerticalAlignment="Top" Width="82"/>
+        <ListBox Name="listAlunos" Margin="10,80,15,15" />
     </Grid>
 </Window>

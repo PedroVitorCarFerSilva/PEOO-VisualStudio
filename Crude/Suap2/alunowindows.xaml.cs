@@ -23,5 +23,41 @@ namespace Suap2
         {
             InitializeComponent();
         }
+
+        private void inserirclick(object sender, RoutedEventArgs e)
+        {
+            Aluno t = new Aluno { Id = txtid.Text, Nome = txtnome.Text, Matricula = txtmatricula.Text, Email = txtemail.Text };
+            NAluno.Inserir(t);
+
+            txtid.Text = null;
+            txtnome.Text = null;
+            txtmatricula.Text = null;
+            txtemail.Text = null;
+
+            listarclick(sender, e);
+        }
+
+        private void listarclick(object sender, RoutedEventArgs e)
+        {
+            listAlunos.ItemsSource = null;
+            listAlunos.ItemsSource = NAluno.Listar();
+        }
+
+        private void atualizarclick(object sender, RoutedEventArgs e)
+        {
+            Aluno t = new Aluno { Id = txtid.Text, Nome = txtnome.Text, Matricula = txtmatricula.Text, Email = txtemail.Text };
+            NAluno.Atualizar(t);
+
+            listarclick(sender, e);
+        }
+
+        private void excluirclick(object sender, RoutedEventArgs e)
+        {
+            if (listAlunos.SelectedItem != null)
+            {
+                NAluno.Excluir((Aluno)listAlunos.SelectedItem);
+                listarclick(sender, e);
+            }
+        }
     }
 }

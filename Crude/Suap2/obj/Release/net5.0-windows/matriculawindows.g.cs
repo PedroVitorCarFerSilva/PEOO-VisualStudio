@@ -53,7 +53,7 @@ namespace Suap2 {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Suap2;component/matriculawindows.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Suap2_qwtqziz4_wpftmp;component/matriculawindows.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\matriculawindows.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
