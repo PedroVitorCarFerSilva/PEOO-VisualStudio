@@ -53,7 +53,7 @@ namespace Suap2 {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Suap2_ny5z5sue_wpftmp;component/alunowindows.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Suap2;component/alunowindows.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\alunowindows.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
